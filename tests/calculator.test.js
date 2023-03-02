@@ -19,6 +19,6 @@ test('divides a / b', () => {
 })
 
 test('Raises to power a ^ b', () => {
-    expect(calculator.power(9,2)).toBe(4.5);
+    expect(calculator.power(9,2)).toBe(81);
 })
 
