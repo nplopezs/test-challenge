@@ -8,4 +8,9 @@ const {getUser, getUsers} = require('../users');
 test ('Usario por id', () => {
     expect(getUser(1).username).toBe("hpLover4");
 });
+
+test ('Usario por id', () => {
+    expect(getUser(3).password).toBe("12345abcde");
+});
+
 // READ documentation
