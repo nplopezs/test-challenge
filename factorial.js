@@ -1,8 +1,10 @@
-function fibonacci(n) {
-    let fib = [0, 1]; 
-    for (let i = 2; i < n; i++) {
-      fib[i] = fib[i - 1] + fib[i - 2]; 
-    }
-    return fib.slice(0, n); 
+function calFactorial(n) {
+  let factorial = 1;
+  for(let i=1;i<=n;i++) {
+    factorial *= i;
+  }
+  return factorial;
 }
 
+module.exports = calFactorial;
+//console.log(calFactorial(4))
